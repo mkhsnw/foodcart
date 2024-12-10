@@ -23,6 +23,8 @@ class User extends Authenticatable
         'password',
     ];
 
+    protected $table = 'users';
+
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -45,4 +47,10 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function perusahaan(){
+        return $this->hasMany(Perusahaan::class);
+    }
+
+    
 }
