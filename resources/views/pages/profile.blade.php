@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container mx-auto my-8 w-4/5">
-    <div class="flex items-center">
+    <div class="flex items-center justify-center gap-4">
         <div class="w-1/2">
             <h3 class="text-2xl font-poltawski-nowy font-regular">Profil Usaha</h3>
             <h1 class="text-4xl font-bold mb-4">Taste Of Yogyakarta</h1>
@@ -11,7 +11,7 @@
             <a href="#" class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-md">Selengkapnya</a>
         </div>
         <div class="w-1/2">
-            <img src="{{ asset('images/kuliner2.png') }}" alt="Kuliner Yogyakarta" class="rounded-md ">
+            <img src="{{ asset('images/menulain.png') }}" alt="Kuliner Yogyakarta" class="rounded-md ">
         </div>
     </div>
 </div>
